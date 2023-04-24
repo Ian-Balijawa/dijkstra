@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 5px;
+  background-color: #0c3547;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-group {
+  width: 20%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.1rem;
+}
